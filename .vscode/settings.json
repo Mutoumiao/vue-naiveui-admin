@@ -1,7 +1,14 @@
 {
+  "eslint.validate": [
+    "javascript",
+    "vue"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "cSpell.words": [
     "Fira",
     "Lato",
     "vfonts"
-  ]
+  ],
 }
