@@ -1,8 +1,12 @@
 {
   "eslint.validate": [
     "javascript",
-    "vue"
+    "javascriptreact",
+    "vue",
   ],
+  "[vue]": {
+    "editor.defaultFormatter": "johnsoncodehk.volar"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
